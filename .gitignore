@@ -1,0 +1,50 @@
+# =========================================================================
+# DietFitness - Fichier .gitignore Global
+# =========================================================================
+
+# Fichiers d'aide et logs
+HELP.md
+*.log
+.DS_Store
+Thumbs.db
+
+# =========================================================================
+# BACKEND (Spring Boot / Maven)
+# =========================================================================
+# Ignore les dossiers de compilation de Maven, peu importe où ils se trouvent
+**/target/
+**/*.class
+
+# Cache du wrapper Maven
+**/.mvn/wrapper/maven-wrapper.jar
+
+# SÉCURITÉ CRUCIALE : On n'envoie JAMAIS les configurations contenant les clés API (Gemini, etc.)
+**/src/main/resources/application.properties
+**/src/main/resources/application.yml
+
+# =========================================================================
+# FRONTEND (React Native / Expo / Node)
+# =========================================================================
+**/node_modules/
+**/.expo/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.env
+
+# =========================================================================
+# IDES & ÉDITEURS (VS Code, IntelliJ, Android Studio)
+# =========================================================================
+.vscode/
+**/.vscode/
+.idea/
+**/ .idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache

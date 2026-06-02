@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "DietFitness",
+    "slug": "dietfitness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#1c3a2e"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1c3a2e"
+      },
+      "permissions": [
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      ["expo-sensors", { "motionPermission": "DietFitness utilise le capteur de mouvement pour compter tes pas." }],
+      ["expo-notifications"]
+    ]
+  }
+}
