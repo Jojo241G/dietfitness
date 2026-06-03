@@ -1,3 +1,9 @@
+/**
+ * Contrôleur REST pour la gestion du Chat IA.
+ * Gère les requêtes HTTP entrantes pour les discussions des utilisateurs.
+ * * @author Cedvianney
+ * @since 2026
+ */
 package com.dietfitness.controller;
 
 import com.dietfitness.model.ChatMessage;

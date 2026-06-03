@@ -1,3 +1,8 @@
+/**
+ * Service gérant la logique métier du système de Chat.
+ * Fait la liaison entre le contrôleur et l'intégration de l'IA.
+ * * @author Cedvianney
+ */
 package com.dietfitness.service;
 
 import com.dietfitness.model.ChatMessage;

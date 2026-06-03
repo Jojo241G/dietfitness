@@ -1,3 +1,8 @@
+/**
+ * Service d'intégration avec l'API Google Gemini AI.
+ * Permet de générer des conseils et réponses automatisés pour le fitness et la nutrition.
+ * * @author Cedvianney
+ */
 package com.dietfitness.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
