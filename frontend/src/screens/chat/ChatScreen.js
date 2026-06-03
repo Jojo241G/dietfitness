@@ -1,3 +1,4 @@
+// Développé par kalashmdg
 import React, { useState, useRef, useContext, useCallback } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, FlatList,

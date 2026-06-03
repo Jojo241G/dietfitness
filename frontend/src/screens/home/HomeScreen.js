@@ -1,3 +1,4 @@
+// Développé par kalashmdg
 import React, { useContext } from 'react';
 import {
   View, Text, ScrollView, StyleSheet, SafeAreaView, TouchableOpacity,
